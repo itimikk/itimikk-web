@@ -68,3 +68,81 @@ header {
     border-top: 1px solid #138aa7;
     border-bottom: 1px solid #138aa7;
 }
+
+
+nav {
+
+	height: 28px;
+	background-color: #343434;
+	border-top: 1px solid #cacbcb;
+	border-bottom: 1px solid black;
+	box-shadow: 0 1px 6px black;
+}
+
+nav .menu {
+
+	width: 87.5%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu li {
+	
+	
+	padding-right:12px;
+	margin-right: 47px;
+	text-align: center;
+	float:left;
+	text-shadow: -1px 0 2px #aeaeae;
+	font-size: 14px;
+    font-family: "Tahoma";
+    line-height: 28px;
+    color:white;
+
+}
+
+.menuItem {
+
+	text-decoration: none;
+	color:inherit;
+	
+}
+
+.menuItemDropdown {
+
+	background: url(../img/white_triangle.png) right center no-repeat;
+	position: relative;
+
+}
+
+.submenu {
+
+	display: none;
+	position: absolute;
+	width: 125px;
+	top: 29px;
+	left: 0;
+	background-color: #303030;
+	border-top: 1px solid black;
+	box-shadow: 0 3px 8px #303030;
+}
+.submenu li {
+	display: block;
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.submenuItem {
+ 
+ text-decoration: none;
+ color:inherit;
+	
+
+}
+.menuItemDropdown:hover > .submenu {
+
+	display: block;
+}
