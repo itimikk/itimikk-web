@@ -71,7 +71,8 @@ header {
 
 
 nav {
-
+	position:relative;
+	z-index: 1;
 	height: 28px;
 	background-color: #343434;
 	border-top: 1px solid #cacbcb;
@@ -149,6 +150,8 @@ nav .menu {
 
 main {
 
+	overflow: hidden;
+	position:relative;
 
 
 }
@@ -156,7 +159,12 @@ main {
 main .content {
 	
 	float: left;
-	width: 58%;
+	width: 57%;
+	
+	
+	padding-top: 10px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
 }
 
 main .info {
@@ -164,6 +172,10 @@ main .info {
 
 	width: 21%;
 	float:left;
+	border-right: 1px solid #c7cacf;
+	background-color: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
 }
 
 
@@ -172,9 +184,41 @@ main .news {
 
 	width: 21%;
 	float: right;
+	border-left: 1px solid #c7cacf;
+	background-color: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+main h2 {
+
+	padding-top: 10px;
+	text-align: center;
+	color: #424c43;
+	font-size: 16px;
+  	font-family: "Tahoma";
+  	font-weight: bold;
+  	line-height: 1.2;
+
+}
+
+main p {
+
+	width: 85%;
+	margin: 0 auto;
+	color: #424c43;
+	font-size: 14px;
+  	font-family: "Tahoma";
+  	line-height: 1.714;
+
 }
 
 footer {
-
+	
+	height: 30px;
+	font-size: 12px;
+	font-family: "Tahoma";
+  	color: rgba(255, 255, 255, 0.8);
+  	line-height: 30px;
 	text-align: center;
 }
